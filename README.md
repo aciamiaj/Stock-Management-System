@@ -5,7 +5,6 @@ This is a console-based inventory management system implemented in C#. It allows
 Program Overview
 The program consists of a single class named Program within the BrandsStockManagement namespace. It includes the main entry point (Main method) where the execution of the program starts.
 
-
 Functionality
 User is prompted to choose an apparel type from the available options (Tshirt, Jeans).
 The selected apparel type is used to retrieve the corresponding IApparel object from the ApparelFactory class.
