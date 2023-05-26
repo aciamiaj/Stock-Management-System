@@ -5,6 +5,7 @@ This is a console-based inventory management system implemented in C#. It allows
 Program Overview
 The program consists of a single class named Program within the BrandsStockManagement namespace. It includes the main entry point (Main method) where the execution of the program starts.
 
+
 Functionality
 User is prompted to choose an apparel type from the available options (Tshirt, Jeans).
 The selected apparel type is used to retrieve the corresponding IApparel object from the ApparelFactory class.
@@ -20,12 +21,14 @@ The updated inventory is displayed.
 The user is prompted to enter a product code to add the corresponding product to the cart. The AddtoCart method of the Inventory class is used to add the product to the cart.
 The updated inventory is displayed.
 The processes (operations performed) on the inventory are displayed using the DisplayProcesses method of the Inventory class.
+
 Getting Started
 To run the program, follow these steps:
 
 Ensure you have a C# development environment set up (e.g., Visual Studio).
 Copy the code provided into a new C# console application project.
 Build and run the project.
+
 Note
 This program assumes the existence of additional classes (IApparel, ApparelFactory, Product, Inventory) and their respective implementations. However, the code provided only includes the Program class, which contains the main logic of the program.
 
